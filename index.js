@@ -52,7 +52,7 @@ queue.print();
 
 class Stack {
   constructor() {
-    this.stackFunction = [];
+    this.stack = [];
   }
 
   push(item) {
@@ -86,7 +86,7 @@ class Stack {
   }
 }
 
-const stackFunction = new Stack();
+const stack = new Stack();
 stack.push(1);
 stack.push(2);
 stack.push(3);
